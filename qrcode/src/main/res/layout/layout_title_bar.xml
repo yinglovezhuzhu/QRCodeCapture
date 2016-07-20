@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (C) 2016. The Android Open Source Project.
+  ~
+  ~          yinglovezhuzhu@gmail.com
+  ~
+  ~  Licensed under the Apache License, Version 2.0 (the "License");
+  ~  you may not use this file except in compliance with the License.
+  ~  You may obtain a copy of the License at
+  ~
+  ~           http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~  Unless required by applicable law or agreed to in writing, software
+  ~  distributed under the License is distributed on an "AS IS" BASIS,
+  ~  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~  See the License for the specific language governing permissions and
+  ~  limitations under the License.
+  -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/btn_titlebar_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textSize_level3"
+            android:visibility="invisible"/>
+        <Button
+            android:id="@+id/btn_titlebar_left2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textSize_level3"
+            android:visibility="gone"/>
+        <TextView
+            android:id="@+id/tv_titlebar_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:gravity="center"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textSize_level2"/>
+        <Button
+            android:id="@+id/btn_titlebar_right2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textSize_level3"
+            android:visibility="gone"/>
+        <Button
+            android:id="@+id/btn_titlebar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:gravity="center"
+            android:background="@android:color/transparent"
+            android:textColor="@color/color_white"
+            android:textSize="@dimen/textSize_level3"
+            android:visibility="invisible"/>
+
+    </LinearLayout>
+</LinearLayout>
